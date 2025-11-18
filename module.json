@@ -1,9 +1,9 @@
 {
   "id": "lineages-and-heritages-supplement-1",
   "title": "Lineages & Heritages Supplement 1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "manifest": "https://github.com/broskirage/tovlineagesheritages/releases/latest/download/module.json",
-  "download": "https://github.com/broskirage/tovlineagesheritages/releases/download/1.1.0/module.zip",
+  "download": "https://github.com/broskirage/tovlineagesheritages/releases/download/1.1.1/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -13,7 +13,7 @@
   },
   "packs": [
     {
-      "name": "lnh-tov-lineages",
+      "name": "Lineages",
       "label": "lineages",
       "path": "packs/lnh-tov-lineages",
       "type": "Item",
@@ -24,15 +24,15 @@
       }
     }
   ],
-    "packFolders": [
-        {
-            "name": "Lineages & Heritages Supplement I",
-            "sorting": "m",
-            "color": "#2d5281",
-            "packs": [
-                "lnh-tov-lineages"
-            ],
-            "folders": []
+	"packFolders": [
+    {
+        "name": "Lineages & Heritages Supplement I",
+        "sorting": "m",
+        "color": "#2d5281",
+		"packs": [
+           "lineages"
+         ],
+        "folders": []
         }
     ],
   "relationships": {
